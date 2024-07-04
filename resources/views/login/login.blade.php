@@ -63,13 +63,13 @@
                                     @enderror
 								</div>
 								<div class="text-right pt-1">
-									<p class="mb-0"><a href="forgot-password.html" class="text-danger ml-1">Mot de passe oublié?</a></p>
+									<p class="mb-0"><a href="javascript:void(0)" class="text-danger ml-1">Mot de passe oublié?</a></p>
 								</div>
 								<div class="container-login100-form-btn">
                                     <button class="login100-form-btn btn-primary" type="submit">Se Connecter</button>
 								</div>
 								<div class="text-center pt-3">
-									<p class="text-dark mb-0">Vous n'avez pas un compte?<a href="register.html" class="text-primary ml-1">S'inscrire</a></p>
+									<p class="text-dark mb-0">Vous n'avez pas un compte?<a href="{{route('register')}}" class="text-primary ml-1">S'inscrire</a></p>
 								</div>
 							</form>
 						</div>
